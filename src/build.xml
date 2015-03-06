@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project name="MovieRecommend" default="CreateJar">
+    <target name="CreateJar" description="Create Jar file">
+        <jar jarfile="MovieRecommend.jar" basedir="../bin/" includes="org/CMPT732A3/*.class" />
+    </target>
+</project>
